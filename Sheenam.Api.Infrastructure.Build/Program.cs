@@ -11,7 +11,7 @@ using ADotNet.Models.Pipelines.GithubPipelines.DotNets.Tasks.SetupDotNetTaskV1s;
 
 var githubPipeline = new GithubPipeline
 {
-    Name = "Sheenam Build Pipeline",
+    Name = "Sheenam Build Pipeline", 
 
     OnEvents = new Events
     {
