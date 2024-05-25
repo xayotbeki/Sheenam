@@ -1,6 +1,6 @@
 ﻿/*==============================
  * Copyright(c) Coalition of Good-Hearted Engineers
- * Free to Use Comfort and Peace
+ * Free to Use To Find Comfort and Peace
  =================================*/    
 
 
@@ -11,7 +11,7 @@ using ADotNet.Models.Pipelines.GithubPipelines.DotNets.Tasks.SetupDotNetTaskV1s;
 
 var githubPipeline = new GithubPipeline
 {
-    Name = "Sheenam Build Pipeline",
+    Name = "Sheenam Build Pipeline", 
 
     OnEvents = new Events
     {
