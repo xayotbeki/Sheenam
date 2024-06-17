@@ -7,8 +7,6 @@ namespace Sheenam.Api.Brokers.Storages
     {
         ValueTask<Guest> InsertGuestAsync(Guest guest);
 
-        //create
-        //read
-        //
+        
     }
 }
