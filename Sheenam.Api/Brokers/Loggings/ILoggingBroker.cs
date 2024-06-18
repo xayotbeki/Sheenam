@@ -2,7 +2,7 @@
 
 namespace Sheenam.Api.Brokers.Loggings
 {
-    public interface ILoggingBrokers
+    public interface ILoggingBroker
     {
         void LogError(Exception exception);
         void LogCritical(Exception exception);

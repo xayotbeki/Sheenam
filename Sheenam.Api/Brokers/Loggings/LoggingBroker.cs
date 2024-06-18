@@ -10,7 +10,7 @@ using System;
 
 namespace Sheenam.Api.Brokers.Loggings
 {
-    public class LoggingBroker : ILoggingBrokers
+    public class LoggingBroker : ILoggingBroker
     {
         private readonly ILogger<LoggingBroker> logger;
 
